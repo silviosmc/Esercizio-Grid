@@ -1,0 +1,86 @@
+.calc {
+    display: grid;
+    grid-template-rows: auto-fit;
+    grid-template-columns: auto-fit;
+    width: 400px;
+    height: 400px;
+    gap: 2px;
+    margin: 10px;
+    background-color: rgb(154, 172, 187);
+    border: 1px solid rgb(154, 172, 187);;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#result {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    grid-column: 1 / 5 ;
+    background-color: rgb(66, 76, 81);
+    color: white;
+    font-size: 40px;
+    border-radius: 10px 10px 0 0;
+    padding-right: 10px;
+    
+}
+
+
+.num {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+    background-color: rgb(238, 242, 244);
+}
+
+
+
+
+.op {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(210, 220, 228);
+    font-size: 30px;
+}
+
+
+
+.equal {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-column: 4 / 5;
+    grid-row: 3 / 7;
+    border-radius: 0 0 10px 0;
+    background-color: rgb(246, 112, 118);
+    font-size: 30px;
+}
+
+
+.zero {
+    display: grid;
+    align-items: center;
+    justify-items: center ;
+    border-radius: 0 0 0 10px;
+    background-color: rgb(238, 242, 244);
+    font-size: 30px;
+}
+
+.comma {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(238, 242, 244);
+    font-size: 30px;
+}
+
+
+.ac {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(238, 242, 244);
+    font-size: 30px;}
+
